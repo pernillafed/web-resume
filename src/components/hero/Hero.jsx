@@ -1,5 +1,5 @@
-import myPhoto from "../../assets/profilePhoto.jpg";
 import styles from "./Hero.module.css";
+import MyPhoto from "../../assets/IMG_4323.jpg";
 
 const Hero = () => {
     return (
@@ -16,7 +16,7 @@ const Hero = () => {
                     <a target="_blank" href="https://www.linkedin.com/in/pernilla-lundahl-80b391244" className={styles.contactLink}>LinkedIn profile</a>
                 </div>
             </div>
-            <img src={myPhoto} alt="Pernilla Lundahl" className={styles.heroPhoto} />
+            <img src={MyPhoto} alt="Pernilla Lundahl" className={styles.heroPhoto} />
         </div>
     );
 }
