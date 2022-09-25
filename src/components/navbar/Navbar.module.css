@@ -1,0 +1,12 @@
+.navbar {
+    background-color: #e3d8eb;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 4rem;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 16vh;
+    z-index: 2;
+}

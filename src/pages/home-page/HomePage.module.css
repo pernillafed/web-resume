@@ -1,0 +1,12 @@
+.homePage {
+    width: calc(100% - 240px);
+    height: 84vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.homePageContainer {
+    width: 75%;
+    margin: 0 auto;
+}

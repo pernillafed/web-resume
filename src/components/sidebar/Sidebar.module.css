@@ -1,0 +1,54 @@
+.sidebar {
+    background-color: #d9cae3;
+    width: 240px;
+    position: fixed;
+    top: 16vh;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 0;
+}
+
+.navLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navLinks div {
+    width: 80%;
+    background-color: #c6b0d5;
+    padding: 0.75rem;
+    margin: 0.3rem 0;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    text-transform: uppercase;
+}
+
+.navLinks div:hover {
+    background-color: #cebadc;
+    cursor: pointer;
+}
+
+.contact {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #666;
+}
+
+.contact a:hover {
+    color: #888;
+}

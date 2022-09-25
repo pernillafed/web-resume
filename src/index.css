@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    height: 100vh;
+    color: #111;
+}
+
+h1 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
