@@ -1,6 +1,6 @@
 {
   "presentation": {
-    "text": "I'm a creative Junior Front End Developer with a special interest in web design and all things visual in web applications. I love constantly learning new things and taking on new challenges. I have a lot of experience working in agile teams, and I'm always positive and helpful towards everyone. I'm looking for a new job where I can continue to grow, both professionally and personally."
+    "text": "I'm a creative Front End Developer with a special interest in web design and all things visual in web applications. I love constantly learning new things and taking on new challenges. I have a lot of experience working in agile teams, and I'm always positive and helpful towards everyone. I'm looking for a new job where I can continue to grow, both professionally and personally."
   },
   "education": [
     {
@@ -18,22 +18,28 @@
   ],
   "workExperience": [
     {
+      "year": "2023 - present",
+      "title": "Software Engineer",
+      "place": "IKEA IT AB in Malmö",
+      "description": "I joined IKEA through their Accelerator Programme as a Junior Software Engineer and was promoted to Software Engineer in February 2026. I am the Cyber Security lead in the team, being a driving force in keeping our products secure by ensuring our team follows best practices and organizational policies. I initiated monthly Engineering Days, which I plan and facilitate in a way that combines knowledge sharing with hands-on workshops and fun activities for the engineers in the team. My team manages pages on IKEA.com, where my daily work includes developing product features, resolving bugs, reducing technical debt, improving performance, creating and evaluating A/B-tests, and doing code reviews."
+    },
+    {
       "year": "2021 - 2022",
       "title": "Junior Web Developer",
       "place": "Massive Entertainment in Malmö",
-      "description": "I started my journey at Massive as an intern while I was still in school and it later turned into an employment. I was part of a team working on Ubisoft's online player network - Ubisoft Connect. We worked with an agile method similar to SCRUM, which means I have a lot of experience participating in agile ceremonies. Other job assignments includes developing new features, fixing bugs, writing unit tests and documentation, and doing code review. I have also been part of a group developing an accessibility prototype from one of our applications. This was part of a project aiming towards giving us more insight and knowledge in web accessibility."
+      "description": "I started my journey at Massive as an intern while I was still in school, which later turned into a full-time position. I was part of a team working on Ubisoft's online player network - Ubisoft Connect. We worked with an agile method similar to SCRUM, having weekly agile ceremonies. Other job assignments included developing new features, fixing bugs, writing unit tests and documentation, and doing code review. I was also part of a group developing an accessibility prototype from one of our applications, a project aimed at gaining more insights and knowledge in web accessibility."
     },
     {
       "year": "2020",
       "title": "Customer Service Employee",
       "place": "Finnlines in Malmö",
-      "description": "I was stationed at the terminal office in the harbor and answered incoming emails and calls from customers, helped them book a trip or answered various questions about booking and traveling. I also worked in the terminal where I checked in private passengers. At Finnlines, I expanded my customer service skills, and I became very comfortable talking to people on the phone. I also became more comfortable working with computers and learned to master programs, such as eBooking and Net e-payments."
+      "description": "I was stationed at the terminal office in the harbor and answered incoming emails and calls from customers, helped them book a trip or answered various questions about booking and traveling. I also worked in the terminal where I checked in private passengers. At Finnlines, I expanded my customer service skills and became very comfortable talking to people on the phone, as well as mastering programs, such as eBooking and Net e-payments."
     },
     {
       "year": "2017 - 2019",
       "title": "Preschool Teacher",
       "place": null,
-      "description": "At the beginning of my preschool teacher career, I learned a lot about what it actually means to be a preschool teacher, everything from childcare to administrative work. I was also part of a team that dealt with questions about information and communication technology. As a preschool teacher, I planned and performed educational work according to the preschool curriculum's goals to aim for, and supported the children in their personal and educational development. I also developed new daily routines and activity plans. During my time as a preschool teacher, I have learned a lot about meeting different types of people, as well as the importance of routines and good structure."
+      "description": "I planned and performed educational work, created new daily routines and activity plans, while supporting children in their personal and educational development. I was also part of a team that dealt with topics around technology. The role taught me how to meet different types of people, as well as the importance of routines and good structure."
     }
   ],
   "portfolio": {
@@ -56,38 +62,44 @@
       "url": "https://github.com/pernillafed?tab=repositories"
     }
   },
-  "computerSkills": [
+  "skills": [
     {
-      "category": "Front End",
-      "skills": ["HTML", "CSS", "Sass", "Javascript", "Typescript"]
+      "category": "Languages & Frameworks",
+      "items": [
+        "HTML",
+        "CSS",
+        "Sass",
+        "Javascript",
+        "Typescript",
+        "React",
+        "Redux"
+      ]
     },
     {
-      "category": "Frameworks/Libraries",
-      "skills": ["React.js", "Vue.js", "Bootstrap"]
-    },
-    {
-      "category": "Version control",
-      "skills": ["Git", "GitKraken", "GitHub", "GitLab"]
-    },
-    {
-      "category": "Databases/APIs",
-      "skills": ["Firebase", "GraphQL", "REST API"]
-    },
-    {
-      "category": "Task management",
-      "skills": ["Jira", "Trello"]
-    },
-    {
-      "category": "UX/UI",
-      "skills": ["Adobe XD", "Figma"]
+      "category": "Tools & Platforms",
+      "items": [
+        "Git",
+        "GitHub",
+        "Google Cloud",
+        "Figma",
+        "Jira",
+        "Postman",
+        "Miro"
+      ]
     },
     {
       "category": "Testing",
-      "skills": ["Jest", "React testing library", "Vue test utils"]
+      "items": ["Jest", "React testing library", "Playwright"]
     },
     {
-      "category": "Editor",
-      "skills": ["Visual Studio Code"]
+      "category": "Other",
+      "items": [
+        "REST API",
+        "Web accessibility (WCAG)",
+        "GitHub Copilot",
+        "ChatGPT",
+        "GitHub Advanced Security"
+      ]
     }
   ],
   "languages": ["Swedish (native)", "English (fluent)"]

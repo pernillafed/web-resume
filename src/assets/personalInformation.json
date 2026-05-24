@@ -1,0 +1,10 @@
+{
+  "name": "Pernilla Lundahl",
+  "dateOfBirth": "28th of August 1991",
+  "city": "Staffanstorp",
+  "contact": {
+    "phoneNumber": "+46 76 555 58 34",
+    "eMailAddress": "pernilla.lundahl@hotmail.com",
+    "linkedInProfile": "https://www.linkedin.com/in/pernilla-lundahl-80b391244"
+  }
+}

@@ -1,32 +1,38 @@
 import styles from "./Hero.module.css";
 import MyPhoto from "../../assets/MyPhoto.jpeg";
+import personalInformation from "../../assets/personalInformation.json";
+import { Sections } from "../../assets/sections";
 
 const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.heroDescription}>
         <p className={styles.shortInfo}>
-          28th of August 1991 | Humanistgatan 8A in Malmö
+          {personalInformation.dateOfBirth} | {personalInformation.city}
         </p>
         <div className={styles.contact}>
-          <h1 className={styles.contactHeading}>Contact</h1>
-          <p>+46 76 555 58 34</p>
+          <h1 className={styles.contactHeading}>{Sections.contact}</h1>
+          <p>{personalInformation.contact.phoneNumber}</p>
           <a
-            href="mailto:pernilla.lundahl@hotmail.com"
+            href={`mailto: ${personalInformation.contact.eMailAddress}`}
             className={styles.contactLink}
           >
-            pernilla.lundahl@hotmail.com
+            {personalInformation.contact.eMailAddress}
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/pernilla-lundahl-80b391244"
+            href={personalInformation.contact.linkedInProfile}
             className={styles.contactLink}
           >
             LinkedIn profile
           </a>
         </div>
       </div>
-      <img src={MyPhoto} alt="Pernilla Lundahl" className={styles.heroPhoto} />
+      <img
+        src={MyPhoto}
+        alt={personalInformation.name}
+        className={styles.heroPhoto}
+      />
     </div>
   );
 };
