@@ -1,0 +1,94 @@
+{
+  "presentation": {
+    "text": "I'm a creative Junior Front End Developer with a special interest in web design and all things visual in web applications. I love constantly learning new things and taking on new challenges. I have a lot of experience working in agile teams, and I'm always positive and helpful towards everyone. I'm looking for a new job where I can continue to grow, both professionally and personally."
+  },
+  "education": [
+    {
+      "year": "2020-2022",
+      "title": "Front End Developer",
+      "place": "Medieinstitutet in Malmö",
+      "description": "Higher Vocational Education (400 HVE points)."
+    },
+    {
+      "year": "2013-2017",
+      "title": "Preschool Teacher Education",
+      "place": "Malmö University",
+      "description": "Certified preschool teacher (210 university points)."
+    }
+  ],
+  "workExperience": [
+    {
+      "year": "2021 - 2022",
+      "title": "Junior Web Developer",
+      "place": "Massive Entertainment in Malmö",
+      "description": "I started my journey at Massive as an intern while I was still in school and it later turned into an employment. I was part of a team working on Ubisoft's online player network - Ubisoft Connect. We worked with an agile method similar to SCRUM, which means I have a lot of experience participating in agile ceremonies. Other job assignments includes developing new features, fixing bugs, writing unit tests and documentation, and doing code review. I have also been part of a group developing an accessibility prototype from one of our applications. This was part of a project aiming towards giving us more insight and knowledge in web accessibility."
+    },
+    {
+      "year": "2020",
+      "title": "Customer Service Employee",
+      "place": "Finnlines in Malmö",
+      "description": "I was stationed at the terminal office in the harbor and answered incoming emails and calls from customers, helped them book a trip or answered various questions about booking and traveling. I also worked in the terminal where I checked in private passengers. At Finnlines, I expanded my customer service skills, and I became very comfortable talking to people on the phone. I also became more comfortable working with computers and learned to master programs, such as eBooking and Net e-payments."
+    },
+    {
+      "year": "2017 - 2019",
+      "title": "Preschool Teacher",
+      "place": null,
+      "description": "At the beginning of my preschool teacher career, I learned a lot about what it actually means to be a preschool teacher, everything from childcare to administrative work. I was also part of a team that dealt with questions about information and communication technology. As a preschool teacher, I planned and performed educational work according to the preschool curriculum's goals to aim for, and supported the children in their personal and educational development. I also developed new daily routines and activity plans. During my time as a preschool teacher, I have learned a lot about meeting different types of people, as well as the importance of routines and good structure."
+    }
+  ],
+  "portfolio": {
+    "publishedProjects": [
+      {
+        "name": "Wizards Puzzle",
+        "url": "https://pernillafed-wizards-puzzle.netlify.app"
+      },
+      {
+        "name": "Photo Review",
+        "url": "https://pernillafed-photo-review.netlify.app"
+      },
+      {
+        "name": "TMDB (The Movie DB)",
+        "url": "https://pernillafed-movie-db.netlify.app"
+      }
+    ],
+    "github": {
+      "label": "GitHub repositories",
+      "url": "https://github.com/pernillafed?tab=repositories"
+    }
+  },
+  "computerSkills": [
+    {
+      "category": "Front End",
+      "skills": ["HTML", "CSS", "Sass", "Javascript", "Typescript"]
+    },
+    {
+      "category": "Frameworks/Libraries",
+      "skills": ["React.js", "Vue.js", "Bootstrap"]
+    },
+    {
+      "category": "Version control",
+      "skills": ["Git", "GitKraken", "GitHub", "GitLab"]
+    },
+    {
+      "category": "Databases/APIs",
+      "skills": ["Firebase", "GraphQL", "REST API"]
+    },
+    {
+      "category": "Task management",
+      "skills": ["Jira", "Trello"]
+    },
+    {
+      "category": "UX/UI",
+      "skills": ["Adobe XD", "Figma"]
+    },
+    {
+      "category": "Testing",
+      "skills": ["Jest", "React testing library", "Vue test utils"]
+    },
+    {
+      "category": "Editor",
+      "skills": ["Visual Studio Code"]
+    }
+  ],
+  "languages": ["Swedish (native)", "English (fluent)"]
+}
