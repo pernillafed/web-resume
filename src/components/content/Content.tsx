@@ -3,21 +3,17 @@ import { Refs } from "../../types";
 import { Sections } from "../../assets/sections";
 import resume from "../../assets/resume.json";
 
-interface ContentProps {
-  refs: Refs;
-}
-
-const Content = ({ refs }: ContentProps) => {
+const Content = () => {
   return (
     <div className={styles.content}>
       <section>
-        <h1 ref={refs.presentationRef}>{Sections.presentation}</h1>
+        <h1>{Sections.presentation}</h1>
         <div className={`${styles.subContent} ${styles.presentation}`}>
           <p>{resume.presentation.text}</p>
         </div>
       </section>
       <section>
-        <h1 ref={refs.educationRef}>{Sections.education}</h1>
+        <h1>{Sections.education}</h1>
         <div className={`${styles.subContent} ${styles.education}`}>
           {resume.education.map((entry) => (
             <div key={entry.title}>
@@ -31,7 +27,7 @@ const Content = ({ refs }: ContentProps) => {
         </div>
       </section>
       <section>
-        <h1 ref={refs.workRef}>{Sections.workExperience}</h1>
+        <h1>{Sections.workExperience}</h1>
         <div className={`${styles.subContent} ${styles.work}`}>
           {resume.workExperience.map((entry) => (
             <div key={entry.title}>
@@ -45,7 +41,7 @@ const Content = ({ refs }: ContentProps) => {
         </div>
       </section>
       <section>
-        <h1 ref={refs.portfolioRef}>{Sections.portfolio}</h1>
+        <h1>{Sections.portfolio}</h1>
         <div className={styles.subContent}>
           <div>
             <h2>Published projects</h2>
@@ -70,7 +66,7 @@ const Content = ({ refs }: ContentProps) => {
         </div>
       </section>
       <section>
-        <h1 ref={refs.computerRef}>{Sections.skills}</h1>
+        <h1>{Sections.skills}</h1>
         <div className={`${styles.subContent} ${styles.skills}`}>
           {resume.skills.map((entry) => (
             <div key={entry.category}>
@@ -85,7 +81,7 @@ const Content = ({ refs }: ContentProps) => {
         </div>
       </section>
       <section>
-        <h1 ref={refs.languagesRef}>{Sections.languages}</h1>
+        <h1>{Sections.languages}</h1>
         <div className={styles.subContent}>
           <ul className={styles.languages}>
             {resume.languages.map((language) => (
