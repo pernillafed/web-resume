@@ -1,6 +1,5 @@
 import HomePage from "./pages/home-page/HomePage";
 import Navbar from "./components/navbar/Navbar";
-import { useRef } from "react";
 
 const App = () => {
   return (

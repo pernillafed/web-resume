@@ -1,5 +1,4 @@
 import styles from "./Content.module.css";
-import { Refs } from "../../types";
 import { Sections } from "../../assets/sections";
 import resume from "../../assets/resume.json";
 
