@@ -1,4 +1,18 @@
 .homePage {
   padding-top: 4.5rem;
-  padding-inline: 1rem;
+  width: 90%;
+  max-width: 1000px;
+  margin-inline: auto;
+}
+
+@media (min-width: 768px) {
+  .homePage {
+    padding-top: 5.75rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .homePage {
+    padding-top: 6.25rem;
+  }
 }
